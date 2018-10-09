@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    background-image: linear-gradient(rgb(94, 77, 189, 0.8), rgb(94, 77, 189, 0.8)), url('../img/hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-row {
+    padding: 50px 0;
+}
+
+.header-row h3 {
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.nav-web {
+    float: right;
+}
+
+.nav-web li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-web li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-row {
+    color: #fff;
+}
+
+.hero-row h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-row p {
+    font-weight: 600;
+}
+
+.hero-text {
+    position: relative;
+    top: 100px;
+}
