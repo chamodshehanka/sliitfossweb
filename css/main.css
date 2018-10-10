@@ -68,6 +68,14 @@ header {
     top: 50px;
 }
 
+@media (min-width: 1200px) {
+
+    .hero-text {
+    position: relative;
+    top: 100px;
+    }
+}
+
 .hero-text a p {
     width: 175px;
     display: inline-block;
