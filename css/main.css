@@ -135,13 +135,6 @@ header {
 
     .hero-text {
         position: relative;
-        top: 100px;
-    }
-
-    header {
-        background-image: linear-gradient(rgb(94, 77, 189, 0.8), rgb(94, 77, 189, 0.8)), url('../img/hero-background.jpg');
-        background-position: center;
-        background-size: cover;
-        height: 80vh;
+        top: 60px;
     }
 }
