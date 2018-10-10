@@ -19,6 +19,10 @@ header {
     letter-spacing: 3px;
 }
 
+.logo {
+    width: 350px;
+}
+
 .nav-web {
     float: right;
 }
@@ -26,15 +30,24 @@ header {
 .nav-web li {
     display: inline-block;
     list-style: none;
-    margin: 0 40px;
-    font-weight: 600;
-    letter-spacing: 1px;
 }
 
 .nav-web li a {
     text-decoration: none;
     color: #fff;
+    margin: 0 10px;
+    padding: 10px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
+
+.nav-web li a:hover {
+    color: #1c1d53;
+    background-color: #ffffffe3;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
 
 .hero-row {
     color: #fff;
@@ -47,9 +60,23 @@ header {
 
 .hero-row p {
     font-weight: 600;
+    margin-top: 15px;
 }
 
 .hero-text {
     position: relative;
-    top: 100px;
+    top: 50px;
+}
+
+.hero-text a p {
+    width: 175px;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    padding: 15px 10px;
+    color: #1c1d53;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 5px #1c1d53;
 }
