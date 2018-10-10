@@ -1,6 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
+}
 
+section {
+    margin: 50px 0;
+    padding: 50px 0;
 }
 
 header {
@@ -69,14 +73,6 @@ header {
     top: 50px;
 }
 
-@media (min-width: 1200px) {
-
-    .hero-text {
-    position: relative;
-    top: 100px;
-    }
-}
-
 .hero-text a p {
     width: 175px;
     display: inline-block;
@@ -88,4 +84,64 @@ header {
     -moz-border-radius: 5px;
     border-radius: 5px;
     box-shadow: 5px 5px 50px 5px #1c1d53;
+    font-weight: 600;
+}
+
+.text-wrap h2 {
+    font-weight: 600;
+    color: #1c1d53;
+}
+
+.text-wrap p {
+    margin: 25px 0;
+    text-align: justify;
+}
+
+.text-wrap a p {
+    width: 175px;
+    display: inline-block;
+    text-align: center;
+    background: #5f4ccc;
+    padding: 15px 10px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 5px #1c1d53;
+    font-weight: 600;
+}
+
+.section-one img,
+.section-two img{
+    width: 100%;
+}
+
+.divider {
+    width: 70%;
+    margin: auto;
+}
+
+.divider hr {
+    border: 0.5px solid #5f4ccc;
+}
+
+
+
+
+
+
+
+@media (min-width: 1201px) {
+
+    .hero-text {
+        position: relative;
+        top: 100px;
+    }
+
+    header {
+        background-image: linear-gradient(rgb(94, 77, 189, 0.8), rgb(94, 77, 189, 0.8)), url('../img/hero-background.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
 }
