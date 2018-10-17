@@ -11,6 +11,11 @@ header {
     background: linear-gradient(rgb(94, 77, 189, 0.8), rgb(94, 77, 189, 0.8)), url('../img/hero-background.jpg') center;
     background-size: cover;
     height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-row {
@@ -124,7 +129,9 @@ header {
     border: 0.5px solid #5f4ccc;
 }
 
-
+.txt-welcome{
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.2);
+}
 
 
 
