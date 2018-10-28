@@ -1,2 +1,2 @@
-# sliit-foss.github.io
+# SLIIT FOSS
 Official Website of SLIIT FOSS Community
