@@ -135,6 +135,9 @@ header {
 
 .header-minor{
     height: 25vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 
@@ -206,7 +209,6 @@ header {
     font-weight: normal;
     margin: 0;
 }
-
 /* Footer Center */
 
 .footer-distributed .footer-center{
