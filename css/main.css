@@ -144,6 +144,9 @@ header {
 
 .header-minor{
     height: 25vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 @media (min-width: 1201px) {
@@ -169,6 +172,10 @@ footer a:hover {
 
 footer img {
     width: 90%;
+}
+
+.footer-distributed .footer-center{
+    width: 35%;
 }
 
 .footer-text {
@@ -202,4 +209,9 @@ footer h6 {
 
 footer .row:first-child {
     margin-bottom: 25px;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
 }
