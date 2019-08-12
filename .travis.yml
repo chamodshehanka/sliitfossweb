@@ -1,23 +1,30 @@
-dist: trusty
-sudo: false
-
 language: node_js
 node_js:
-  - '12'
+ - "12"
+
+branches:
+  only:
+    - master
 
 addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
+  chrome: stable
+
+before_script:
+  - npm install @angular/cli
 
 cache:
+  npm: true
   directories:
-    - ./node_modules
-
-install:
-  - npm install
+    - node_modules
 
 script:
-  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - ng build --prod
+
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: ./dist/
+  on:
